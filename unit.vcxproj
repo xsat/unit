@@ -123,15 +123,24 @@
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AiComponent.cpp" />
     <ClCompile Include="Container.cpp" />
     <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GraphicsComponent.cpp" />
+    <ClCompile Include="InputComponent.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="PhysicsComponent.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AiComponent.h" />
+    <ClInclude Include="Component.h" />
     <ClInclude Include="Container.h" />
     <ClInclude Include="Game.h" />
+    <ClInclude Include="GraphicsComponent.h" />
+    <ClInclude Include="InputComponent.h" />
     <ClInclude Include="Particle.h" />
     <ClInclude Include="ParticleContainer.h" />
+    <ClInclude Include="PhysicsComponent.h" />
     <ClInclude Include="Process.h" />
     <ClInclude Include="ProcessContainer.h" />
   </ItemGroup>

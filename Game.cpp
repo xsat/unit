@@ -11,6 +11,7 @@ Game::Game()
 		)
 	)
 	, container_(new Container())
+	, components_(new Components())
 {
 	window_->setFramerateLimit(60);
 }
