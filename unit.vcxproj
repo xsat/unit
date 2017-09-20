@@ -123,11 +123,17 @@
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Container.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Container.h" />
     <ClInclude Include="Game.h" />
+    <ClInclude Include="Particle.h" />
+    <ClInclude Include="ParticleContainer.h" />
+    <ClInclude Include="Process.h" />
+    <ClInclude Include="ProcessContainer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

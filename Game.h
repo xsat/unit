@@ -1,6 +1,7 @@
 #pragma once
 
 #include <SFML/Graphics.hpp>
+#include "Container.h"
 
 namespace unit 
 {
@@ -14,6 +15,7 @@ public:
 	void run();
 private:
 	sf::RenderWindow *window_;
+	Container *container_;
 };
 
 };

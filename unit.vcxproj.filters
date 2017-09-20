@@ -13,6 +13,9 @@
       <Filter>Core</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Container.cpp">
+      <Filter>Containers</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Other">
@@ -21,10 +24,34 @@
     <Filter Include="Core">
       <UniqueIdentifier>{4bb81a11-2720-42af-94a8-8e5e4cdf6c0c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Containers">
+      <UniqueIdentifier>{0e875752-4dee-4288-ac98-869bd827fb7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Processes">
+      <UniqueIdentifier>{0044bd7f-ecaa-4f07-b371-aec835c2b6dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particles">
+      <UniqueIdentifier>{91838209-60fe-4057-8b36-595ca0fa577f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
       <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Container.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Process.h">
+      <Filter>Processes</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessContainer.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleContainer.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Particles</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
