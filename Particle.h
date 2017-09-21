@@ -20,4 +20,4 @@ protected:
 	sf::Sprite *sprite_;
 };
 
-};
+}; // namespace unit

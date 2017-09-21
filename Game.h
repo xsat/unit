@@ -27,4 +27,4 @@ private:
 	Components *components_;
 };
 
-};
+}; // namespace unit

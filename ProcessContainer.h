@@ -14,4 +14,4 @@ public:
 	virtual const Processes *getProcesses() const = 0;
 };
 
-};
+}; // namespace unit

@@ -14,4 +14,4 @@ public:
 	virtual const Particles *getParticles() const = 0;
 };
 
-};
+}; // namespace unit

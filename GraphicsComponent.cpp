@@ -24,4 +24,4 @@ GraphicsComponent::~GraphicsComponent()
 	window->display();
 }
 
-};
+}; // namespace unit

@@ -20,4 +20,4 @@ void PhysicsComponent::update(sf::RenderWindow *window)
 	}
 }
 
-};
+}; // namespace unit

@@ -7,4 +7,4 @@ namespace unit
 {
 }
 
-};
+}; // namespace unit

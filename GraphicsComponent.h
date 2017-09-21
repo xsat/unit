@@ -17,4 +17,4 @@ private:
 	ParticleContainer *container_;
 };
 
-};
+}; // namespace unit

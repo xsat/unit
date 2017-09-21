@@ -11,4 +11,4 @@ public:
 	virtual void update(sf::RenderWindow *window) = 0;
 };
 
-};
+}; // namespace unit

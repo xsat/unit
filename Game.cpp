@@ -43,4 +43,4 @@ void Game::run()
 	}
 }
 
-};
+}; // namespace unit

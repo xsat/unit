@@ -25,4 +25,4 @@ Particle::Particle(const sf::String &filename, const sf::IntRect &area)
 	target.draw(*sprite_, states);
 }
 
-};
+}; // namespace unit
