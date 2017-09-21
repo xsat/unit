@@ -129,6 +129,7 @@
     <ClCompile Include="GraphicsComponent.cpp" />
     <ClCompile Include="InputComponent.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Particle.cpp" />
     <ClCompile Include="PhysicsComponent.cpp" />
   </ItemGroup>
   <ItemGroup>
