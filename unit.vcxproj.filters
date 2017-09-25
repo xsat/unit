@@ -51,6 +51,9 @@
     <Filter Include="Components">
       <UniqueIdentifier>{8be353cc-0d4e-4f0d-8025-192716212f34}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Images">
+      <UniqueIdentifier>{83409972-0b8e-439e-aac6-050525af6ccb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -86,5 +89,10 @@
     <ClInclude Include="PhysicsComponent.h">
       <Filter>Components</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="red.png">
+      <Filter>Images</Filter>
+    </Image>
   </ItemGroup>
 </Project>

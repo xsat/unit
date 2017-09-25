@@ -3,15 +3,16 @@
 namespace unit
 {
 
-Particle::Particle(const sf::String &filename, const sf::IntRect &area) 
+Particle::Particle(const std::string &filename, const sf::IntRect &area)
 	: Drawable()
 	, texture_(new sf::Texture())
 	, sprite_(new sf::Sprite())
 {
-	texture_->loadFromFile(filename, area);
-	texture_->setRepeated(true);
-	sprite_->setTexture(*texture_);
-	sprite_->setTextureRect(area);
+	if (texture_->loadFromFile(filename, area)) {
+		texture_->setRepeated(true);
+		sprite_->setTexture(*texture_);
+		sprite_->setTextureRect(area);
+	}
 }
 
 /* virtual */ Particle::~Particle() 

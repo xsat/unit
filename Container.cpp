@@ -6,7 +6,11 @@ namespace unit
 Container::Container()
 	: ParticleContainer()
 	, ProcessContainer()
-	, particles_(new Particles())
+	, particles_(new Particles(
+		{
+			new Particle("red.png", sf::IntRect(0, 0, 100, 100))
+		}
+	))
 	, processes_(new Processes())
 {
 }
