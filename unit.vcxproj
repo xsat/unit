@@ -124,6 +124,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AiComponent.cpp" />
+    <ClCompile Include="AnimatedParticle.cpp" />
     <ClCompile Include="Container.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="GraphicsComponent.cpp" />
@@ -134,6 +135,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AiComponent.h" />
+    <ClInclude Include="AnimatedParticle.h" />
     <ClInclude Include="Component.h" />
     <ClInclude Include="Container.h" />
     <ClInclude Include="Game.h" />
@@ -146,6 +148,7 @@
     <ClInclude Include="ProcessContainer.h" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="..\..\..\Users\Xsat\Pictures\wheel.png" />
     <Image Include="red.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

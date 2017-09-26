@@ -31,6 +31,9 @@
     <ClCompile Include="Particle.cpp">
       <Filter>Particles</Filter>
     </ClCompile>
+    <ClCompile Include="AnimatedParticle.cpp">
+      <Filter>Particles</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Other">
@@ -89,9 +92,15 @@
     <ClInclude Include="PhysicsComponent.h">
       <Filter>Components</Filter>
     </ClInclude>
+    <ClInclude Include="AnimatedParticle.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="red.png">
+      <Filter>Images</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Xsat\Pictures\wheel.png">
       <Filter>Images</Filter>
     </Image>
   </ItemGroup>
