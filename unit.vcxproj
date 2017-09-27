@@ -148,8 +148,8 @@
     <ClInclude Include="ProcessContainer.h" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\..\..\Users\Xsat\Pictures\wheel.png" />
     <Image Include="red.png" />
+    <Image Include="wheel.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

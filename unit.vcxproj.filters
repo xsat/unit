@@ -100,7 +100,7 @@
     <Image Include="red.png">
       <Filter>Images</Filter>
     </Image>
-    <Image Include="..\..\..\Users\Xsat\Pictures\wheel.png">
+    <Image Include="wheel.png">
       <Filter>Images</Filter>
     </Image>
   </ItemGroup>
