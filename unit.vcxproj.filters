@@ -34,6 +34,9 @@
     <ClCompile Include="AnimatedParticle.cpp">
       <Filter>Particles</Filter>
     </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Processes</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Other">
@@ -94,6 +97,9 @@
     </ClInclude>
     <ClInclude Include="AnimatedParticle.h">
       <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Processes</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

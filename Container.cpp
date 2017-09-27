@@ -13,12 +13,16 @@ Container::Container()
 	))
 	, processes_(new Processes())
 {
-	AnimatedParticle *wheel = new AnimatedParticle("wheel.png", sf::seconds(0.1), {
-		sf::IntRect(0, 0, 100, 100),
-		sf::IntRect(100, 0, 100, 100),
-		sf::IntRect(200, 0, 100, 100),
-		sf::IntRect(300, 0, 100, 100)
-	});
+	AnimatedParticle *wheel = new AnimatedParticle(
+		"wheel.png", 
+		sf::seconds(0.1), 
+		std::vector<sf::IntRect>({
+			sf::IntRect(0, 0, 100, 100),
+			sf::IntRect(100, 0, 100, 100),
+			sf::IntRect(200, 0, 100, 100),
+			sf::IntRect(300, 0, 100, 100)
+		})
+	);
 
 	particles_->emplace_back(wheel);
 	processes_->emplace_back(wheel);
