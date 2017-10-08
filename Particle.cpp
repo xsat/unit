@@ -8,7 +8,7 @@ Particle::Particle(const std::string &filename, const sf::IntRect &area)
 	, texture_(new sf::Texture())
 	, sprite_(new sf::Sprite())
 {
-	if (texture_->loadFromFile(filename, area)) {
+	if (texture_->loadFromFile(filename)) {
 		texture_->setRepeated(true);
 		sprite_->setTexture(*texture_);
 		sprite_->setTextureRect(area);

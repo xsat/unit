@@ -2,6 +2,7 @@
 
 #include "ParticleContainer.h"
 #include "ProcessContainer.h"
+#include "AnimatedParticle.h"
 
 namespace unit
 {
