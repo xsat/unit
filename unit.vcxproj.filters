@@ -37,6 +37,9 @@
     <ClCompile Include="Animation.cpp">
       <Filter>Processes</Filter>
     </ClCompile>
+    <ClCompile Include="Move.cpp">
+      <Filter>Processes</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Other">
@@ -99,6 +102,9 @@
       <Filter>Particles</Filter>
     </ClInclude>
     <ClInclude Include="Animation.h">
+      <Filter>Processes</Filter>
+    </ClInclude>
+    <ClInclude Include="Move.h">
       <Filter>Processes</Filter>
     </ClInclude>
   </ItemGroup>
