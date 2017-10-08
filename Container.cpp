@@ -15,7 +15,7 @@ Container::Container()
 {
 	AnimatedParticle *wheel = new AnimatedParticle(
 		"wheel.png", 
-		sf::seconds(0.1), 
+		sf::seconds(0.06f), 
 		std::vector<sf::IntRect>({
 			sf::IntRect(0, 0, 100, 100),
 			sf::IntRect(100, 0, 100, 100),

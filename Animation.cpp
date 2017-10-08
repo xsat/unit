@@ -10,6 +10,7 @@ Animation::Animation(
 : Process()
 , frame_time_(frame_time)
 , current_time_()
+, frame_()
 , frames_(frames)
 , current_frame_(0)
 {
@@ -41,7 +42,7 @@ Animation::Animation(
 const sf::IntRect &Animation::getActive() const 
 {
 	if (frames_.empty()) {
-		return sf::IntRect();
+		return frame_;
 	}
 
 	return frames_.at(current_frame_);

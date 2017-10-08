@@ -22,6 +22,7 @@ public:
 private:
 	sf::Time frame_time_;
 	sf::Clock current_time_;
+	sf::IntRect frame_;
 	std::vector<sf::IntRect> frames_;
 	unsigned int current_frame_;
 };
